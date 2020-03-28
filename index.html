@@ -1,0 +1,54 @@
+<html>
+  <head>
+    <title> My first web page </title>
+    <script type="text/javascript"
+	    src="testfile.js">
+    </script>
+    <link href="myStyle.css"
+	  rel="stylesheet"
+	  type="text/css"/>
+  </head>
+
+  <p>Exercise 1: Password Validation</p>
+  
+  <form>
+    <input name="password1" id="password1" type="text"><br>
+    <input name="password2" id="password2" type="text">
+  </form>
+
+  <br>
+  <button onclick="checkPasswords()">Validate</button>
+  
+  <p>Exercise 2: Slideshow</p>
+  <img src="smiley0.jpeg" id="smiley" height="500" width="500"><br>
+  <button value="SlideshowNext" onclick="nextPic()"> Next </button>
+  <button value="SlideshowPrev" onclick="prevPic()"> Previous </button>
+  <br>
+
+  <p>Exercise 3: User Profile</p>
+  <img src="maxresdefault.jpg" id="smiley" height="480" width="1140"><br>
+  <p> My name is Ash Ketchum. I am a perpetually young 10-year-old that loves traveling the world
+    and catching all sorts of new Pokemon! I've had many friends over the years, but my friend Pikachu
+    has been with me since day 1! I'm super excited about everything Pokemon, and I hope I can be good friends
+    with all of them! I've posted a video below showing off all of the Pokemon I know of!</p><br>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/rJTeVOOFMHM" frameborder="0" allowfullscreen></iframe>
+  <p> <a href="https://www.smogon.com/">Here's</a> a website I use to discuss strategies about my pokemon fights!</p>
+  <p class="picture">This is meant to be a paragraph with an image embedded into it</p>
+
+  <p>Exercise 4: Paragraph border/background changing</p>
+  
+  <p class="placeholder" id="plpar">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  
+  <p > To change the border of the above paragraph, please insert the rgb value for the border like so: #xxxxxx, where xxxxxx is the hexadecimal code for the color. Alternatively, input a number for the width of the border in pixels. To change the background color, please insert the rgb value for the background like so:  #xxxxxx, where xxxxxx is the hexadecimal code for the color.<br>
+    Red is #FF0000<br>
+    Green is #00FF00<br>
+    Blue is #0000FF</p>
+  
+  <form>
+    <input name="border" id="bor" type="text"><br>
+    <input name="background" id="bck" type="text">
+  </form>
+  <br>
+  <button onclick="changeCSSofpar()">Change placeholder paragraph values</button>
+  
+</html>

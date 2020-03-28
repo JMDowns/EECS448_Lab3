@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <title> My first web page </title>
+    <script type="text/javascript"
+	    src="testfile.js">
+    </script>
+    <link href="myStyle.css"
+	  rel="stylesheet"
+	  type="text/css"/>
+  </head>
+
+  <p>Hello</p>
+  
+  <img src="smiley0.jpeg" id="smiley" height="500" width="500"><br>
+  <button value="SlideshowNext" onclick="nextPic()"> Next </button>
+  <button value="SlideshowPrev" onclick="prevPic()"> Previous </button>
+
+  <form>
+    <input name="password1" id="password1" type="text"><br>
+    <input name="password2" id="password2" type="text">
+  </form>
+
+  <br>
+  <button onclick="checkPasswords()">Validate</button>
+  
+</html>

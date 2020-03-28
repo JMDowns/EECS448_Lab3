@@ -1,0 +1,28 @@
+a:hover
+{
+    color: white;
+}
+
+p
+{
+    background-color: lightblue;
+    color: black;
+    font-family: arial
+    font-size: 22-pt;
+}
+
+p.picture
+{
+    color: black;
+    background-image: url(maxresdefault.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+p.placeholder
+{
+    border-style: solid;
+    border-width: 10px;
+    color: white;
+}
